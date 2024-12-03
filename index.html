@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parinay's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="/Portfolio-Page/assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header-home">
+        <div class="container">
+            <!-- Navigation -->
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Parinay</h1>
+            <p>
+                <span id="typed-text"></span>
+                <span class="cursor">|</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <!-- Left side: Image -->
+            <div class="about-image">
+                <img src="/Portfolio-Page/assets/images/profile.jpg" alt="Parinay's Photo">
+                <!-- <div class="hover-popup">
+                    Passionate Developer | Java Enthusiast | Problem Solver
+                </div> -->
+            </div>
+            <!-- Right side: Text content -->
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm <strong>Parinay Raya</strong>, a passionate software developer currently pursuing my final
+                    year
+                    of Master of Computer Applications (MCA) at MITM College with a CGPA of 7.7.
+                </p>
+                <p>
+                    <strong>Skills:</strong> Proficient in Java, database management, React basics, and more.
+                </p>
+                <p>
+                    <strong>Education:</strong> Master of Computer Applications (MITM College, CGPA: 7.7)
+                </p>
+                <p>
+                    <strong>Internships:</strong> Worked on real-world projects like Number Guessing Game, ATM
+                    Interface,
+                    and Electricity Billing System during my internship at Codsoft Technology.
+                </p>
+                <a class="btn-light" href="/contact">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> Java, React Basics</li>
+            <li><strong>Database Management:</strong> MySQL, RDBMS</li>
+            <li><strong>Tools & Concepts:</strong> Java Swing, OOP, Data Mining</li>
+            <li><strong>Soft Skills:</strong> Leadership, Adaptability, Teamwork</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Electricity Billing System:</strong> A Java-based project to manage and generate electricity
+                bills efficiently.</li>
+            <li><strong>Number Guessing Game:</strong> A fun game using Java logic to engage users with interactive
+                gameplay.</li>
+            <li><strong>ATM Interface:</strong> Simulated an ATM machine using Java, allowing users to perform basic
+                transactions.</li>
+            <li><strong>Quiz Application:</strong> Developed an interactive quiz platform using Java Swing.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <!-- Left side: Image -->
+            <div class="contact-image">
+                <img src="/Portfolio-Page/assets/images/contact.jpeg" alt="Contact Illustration">
+            </div>
+            <!-- Right side: Form -->
+            <div class="contact-form-container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations, job opportunities, or any inquiries!</p>
+                <form action="/submit-contact" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>    
+
+    <footer style="text-align: center; padding: 1rem; background: #023e8a; color: white;">
+        <p>© 2024 Parinay Raya | All Rights Reserved</p>
+    </footer>
+
+    <script src="/Portfolio-Page/assets/js/script.js"></script>
+</body>
+
+</html>

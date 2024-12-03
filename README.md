@@ -86,11 +86,13 @@ If you'd like to contribute to this project, follow these steps:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
+
 Feel free to reach out if you'd like to collaborate on a project or if you have any questions:
 
-Email: parinayraya7432@gmail.com
-LinkedIn: https://linkedin.com/in/parinay
-GitHub: https://github.com/Parinay-raya
+- **Email:** [parinayraya7432@gmail.com](mailto:parinayraya7432@gmail.com) ![Email Logo](https://img.icons8.com/ios-filled/50/000000/email.png)
+- **LinkedIn:** [https://linkedin.com/in/parinay](https://in.linkedin.com/in/parinay-raya-49118a194) ![LinkedIn Logo](https://img.icons8.com/ios-filled/50/000000/linkedin.png)
+- **GitHub:** [https://github.com/Parinay-raya](https://github.com/Parinay-raya) ![GitHub Logo](https://img.icons8.com/ios-filled/50/000000/github.png)
 
 Thanks for checking out my portfolio! 😊
+
 

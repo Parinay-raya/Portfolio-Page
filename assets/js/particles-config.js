@@ -12,7 +12,7 @@ particlesJS('particles-js', {
             value: "#ffffff"
         },
         shape: {
-            type: "circle",
+            type: "triangle",
             stroke: {
                 width: 0,
                 color: "#000000"
@@ -42,7 +42,7 @@ particlesJS('particles-js', {
             }
         },
         line_linked: {
-            enable: true,
+            enable: false,
             distance: 150,
             color: "#ffffff",
             opacity: 0.4,

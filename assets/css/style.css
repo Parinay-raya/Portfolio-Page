@@ -285,6 +285,106 @@ section h2 {
     }
 }
 
+
+/* skills section style */
+
+
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(145deg, rgb(244, 233, 250), rgb(113, 113, 231));
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    animation: fadeIn 2s ease-in-out;
+    width: 85%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.skills-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.skills-container li {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(113, 113, 231);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.skills-container li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: rgb(113, 113, 231);
+    color: #fff;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation for list items */
+.skills-container li {
+    position: relative;
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.skills-container li:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+.skills-container li:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.skills-container li:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
+.skills-container li:nth-child(4) {
+    animation-delay: 1.2s;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
 /* Contact Section Styling */
 .contact {
     display: flex;
